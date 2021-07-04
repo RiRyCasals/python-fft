@@ -1,0 +1,1 @@
+docker container run -it --mount type=bind,src=$(pwd),dst=/home/work/ -p 8888:8888 jupyter/fft:3.8.11
